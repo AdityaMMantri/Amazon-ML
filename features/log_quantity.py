@@ -2,7 +2,7 @@ import re
 import numpy as np
 import pandas as pd
 
-df=pd.read_csv(r"D:\AMAZON-ML\68e8d1d70b66d_student_resource\student_resource\dataset\test_with_brand_encoding.csv")
+df=pd.read_csv(r"")
 
 
 def extract_value_unit(text):
