@@ -15,8 +15,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 DEVICE="cuda" if torch.cuda.is_available() else "cpu"
-IMAGE_DIR=r"D:\AMAZON-ML\New_method\Train_Image_final"
-CSV_PATH=r"D:\AMAZON-ML\New_method\Dataset\train_final_features.csv"
+IMAGE_DIR=r""
+CSV_PATH=r""
 BATCH_SIZE=4
 EPOCHS=15
 LR_MLP=1e-3
