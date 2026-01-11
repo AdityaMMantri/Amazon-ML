@@ -17,9 +17,9 @@ from sklearn.preprocessing import StandardScaler
 # ============================================================
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-IMAGE_DIR=r"D:\AMAZON-ML\New_method\Test_Image_final"
-CSV_PATH=r"D:\AMAZON-ML\New_method\Dataset\test_final_features.csv"
-CHECKPOINT = r"D:\AMAZON-ML\New_method\checkpoints\model_epoch_15.pt"
+IMAGE_DIR=r""
+CSV_PATH=r""
+CHECKPOINT = r""
 
 BATCH_SIZE = 4
 MAX_LEN = 256
