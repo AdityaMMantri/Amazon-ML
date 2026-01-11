@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
 
-CSV_PATH=r"D:\AMAZON-ML\68e8d1d70b66d_student_resource\student_resource\dataset\train.csv"
+CSV_PATH=r""
 IMAGE_DIR="test_images"
 FAILED_LOG="test_failed_downloads.txt"
 
