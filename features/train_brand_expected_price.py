@@ -1,6 +1,6 @@
 import pandas as pd
 
-train_df= pd.read_csv(r"D:\AMAZON-ML\68e8d1d70b66d_student_resource\student_resource\dataset\train_with_brand.csv")
+train_df= pd.read_csv(r"")
 print(train_df.head())
 
 train_df["brand"]=(train_df["brand"].fillna("unknown_brand").str.lower().str.strip())
