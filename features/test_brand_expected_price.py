@@ -1,12 +1,12 @@
 import pandas as pd
 #---------------------------------------------------------TRAIN DATA--------------------------------------------------------------
-train_df = pd.read_csv(r"D:\AMAZON-ML\New_method\Dataset\train_final_features.csv")
+train_df = pd.read_csv(r"")
 brand_encodings = train_df[["brand", "brand_price_enc"]].drop_duplicates()
 brand_encoding_dict = dict(zip(brand_encodings["brand"], brand_encodings["brand_price_enc"]))
 global_mean = train_df["price"].mean()
 
 #---------------------------------------------------------TEST DATA--------------------------------------------------------------
-test_df = pd.read_csv(r"D:\AMAZON-ML\68e8d1d70b66d_student_resource\student_resource\dataset\test_with_brand.csv")
+test_df = pd.read_csv(r"")
 test_df["brand"] = test_df["brand"].fillna("unknown_brand").str.lower().str.strip()
 
 # Map encodings from training
