@@ -16,11 +16,11 @@ from transformers import ViTModel, ViTImageProcessor
 # ============================================================
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-IMAGE_DIR = r"D:\AMAZON-ML\New_method\Test_Image_final"
-CSV_PATH  = r"D:\AMAZON-ML\New_method\Dataset\test_final_features.csv"
-CHECKPOINT = r"D:\AMAZON-ML\New_method\checkpoints\model_epoch_4.pt"
+IMAGE_DIR = r""
+CSV_PATH  = r""
+CHECKPOINT = r""
 
-SCALER_PATH = r"D:\AMAZON-ML\numeric_scaler.pkl"
+SCALER_PATH = r""
 
 BATCH_SIZE = 4
 MAX_LEN = 256
