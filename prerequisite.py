@@ -1,6 +1,6 @@
 import pandas as pd
 import torch
-df=pd.read_csv(r"D:\AMAZON-ML\New_method\Dataset\train_final_features.csv")
+df=pd.read_csv("")
 print(df.describe())
 print(df.info())
 
