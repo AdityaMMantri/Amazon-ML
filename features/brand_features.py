@@ -1,7 +1,7 @@
 import re
 import pandas as pd
 
-df=pd.read_csv(r"D:\AMAZON-ML\68e8d1d70b66d_student_resource\student_resource\dataset\test.csv")
+df=pd.read_csv(r"")
 
 # -----------------------------
 # Word filters
