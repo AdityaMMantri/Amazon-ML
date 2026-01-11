@@ -127,29 +127,29 @@ metrics/smap.py
 
 ```
                 ┌────────────────────┐
-                │   Raw Dataset CSV   │
+                │   Raw Dataset CSV  │
                 └─────────┬──────────┘
                           │
           ┌───────────────▼────────────────┐
-          │        Feature Engineering      │
+          │        Feature Engineering     │
           │  (brand, binary, quantity, etc)│
           └───────────────┬────────────────┘
                           │
               ┌───────────▼───────────┐
-              │   Brand Price Encoding │
+              │   Brand Price Encoding│
               └───────────┬───────────┘
                           │
               ┌───────────▼───────────┐
-              │   Scaling / Normalize  │
+              │   Scaling / Normalize │
               └───────────┬───────────┘
                           │
               ┌───────────▼───────────┐
-              │   Model Training/Test  │
+              │   Model Training/Test │
               └───────────┬───────────┘
                           │
               ┌───────────▼───────────┐
-              │        Evaluation      │
-              │        (SMAPE)         │
+              │        Evaluation     │
+              │        (SMAPE)        │
               └───────────────────────┘
 ```
 
