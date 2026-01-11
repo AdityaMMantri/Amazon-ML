@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-df=pd.read_csv(r"D:\AMAZON-ML\68e8d1d70b66d_student_resource\student_resource\dataset\test_with_log_quantity_final.csv")
+df=pd.read_csv(r"")
 print(df.head())
 
 df["brand_present"]=(df["brand"].notna()&(df["brand"]!="unknown_brand")).astype(int)
