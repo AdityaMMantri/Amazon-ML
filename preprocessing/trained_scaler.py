@@ -9,7 +9,7 @@ NUM_COLS = [
     "brand_price_enc"
 ]
 
-TRAIN_CSV = r"D:\AMAZON-ML\New_method\Dataset\train_final_features.csv"
+TRAIN_CSV = r""
 
 # Load TRAIN data
 train_df = pd.read_csv(TRAIN_CSV)
@@ -25,7 +25,7 @@ scaler = StandardScaler()
 scaler.fit(train_df[NUM_COLS].astype("float32"))
 
 # Save scaler
-SCALER_PATH = r"D:\AMAZON-ML\numeric_scaler.pkl"
+SCALER_PATH = r""
 joblib.dump(scaler, SCALER_PATH)
 
 print("✔ Train scaler reconstructed and saved at:")
